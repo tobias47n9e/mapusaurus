@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'map',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'mapusaurus',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'USER': 'andi',
+        'PASSWORD': 'holadrio',
         'HOST': 'localhost',
         'PORT': '5432'
     }
